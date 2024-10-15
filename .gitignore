@@ -1,0 +1,31 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore dist folder
+dist/
+
+# Ignore .env files
+.env*
+
+# Ignore IDE files
+.idea/
+*.suo
+*.ntvs*
+*.VC.db
+*.VC.VC.opendb
+*.VC.VC.db
+
+# Ignore build artifacts
+build/
+coverage/
+
+# Ignore editor files
+.DS_Store
+*.log
+*.tmp
+*.tmproj
+
+# Ignore other files
+*.env
+package-lock.json
+pnpm-lock.yaml

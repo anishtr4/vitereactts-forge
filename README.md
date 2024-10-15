@@ -1,6 +1,6 @@
 # Vite React TypeScript Forge
 
-This project provides a robust boilerplate for creating React applications using TypeScript, Vite, and Tailwind CSS.  It includes a well-structured routing system separating public and private routes, along with a clean layout system and utilizes Shadcn UI for components.
+This project provides a robust boilerplate for creating React applications using TypeScript, Vite, and Tailwind CSS.  It includes a well-structured routing system separating public and private routes, along with a clean layout system and utilizes Shadcn UI for components.  Basic testing is implemented using Jest and React Testing Library.
 
 ## Project Setup
 
@@ -27,7 +27,7 @@ This project provides a robust boilerplate for creating React applications using
 The project is organized for maintainability and scalability:
 
 -   **`src/`:** Contains the source code.
-    -   **`components/`:** Reusable UI components.  Includes custom button components.
+    -   **`components/`:** Reusable UI components.  Includes custom button components with tests.
     -   **`layouts/`:** Page layouts (`PublicLayout`, `DashboardLayout`).
     -   **`pages/`:** Individual page components.
         -   **`public/`:** Components for publicly accessible pages (Home, About, Contact, Login).
@@ -55,6 +55,28 @@ After completing the setup steps, navigate to `http://localhost:5173` in your br
 -   **React Router DOM:** For client-side routing.
 -   **@shadcn/ui:**  Provides styled UI components, including buttons.
 -   **@tanstack/react-query:** For efficient data fetching and caching.
+-   **Jest:** JavaScript testing framework.
+-   **React Testing Library:**  For testing React components.
+
+## Testing
+
+Basic unit tests are included for the Button component.  Run tests using:
+
+```bash
+npm test
+```
+
+To add end-to-end (e2e) tests, consider using Cypress:
+
+1.  **Install Cypress:**
+    ```bash
+    npm install cypress --save-dev
+    ```
+2.  **Open Cypress:**
+    ```bash
+    npx cypress open
+    ```
+    This will open the Cypress Test Runner.  You can then create new e2e tests.
 
 ## Contributing
 

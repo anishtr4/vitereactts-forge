@@ -86,5 +86,3 @@ Contributions are welcome! Please feel free to submit pull requests.
 ## Troubleshooting
 
 -   **Type Errors:** If you encounter TypeScript type errors related to `react-router-dom`, ensure that `react-router-dom` and `@types/react-router-dom` are correctly installed.  Run `npm install react-router-dom @types/react-router-dom` if necessary.  Similar type errors for `@shadcn/ui` can be resolved by installing `@types/shadcn-ui`.
-
--   **Blank Dashboard:** If the dashboard appears blank, check your browser's developer console for errors.  Ensure that the routes are correctly defined and that the `DashboardLayout` and `DashboardPage` components are rendering correctly.  Restart your development server if necessary.
